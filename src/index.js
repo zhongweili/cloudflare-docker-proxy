@@ -9,7 +9,7 @@ const routes = {
   // production
   "cloudflare-docker-proxy.way2049.workers.dev": dockerhub,
   // staging
-  "cloudflare-docker-proxy.way2049.workers.dev": dockerHub,
+  "cloudflare-docker-proxy-staging.way2049.workers.dev": dockerHub,
 };
 
 function routeByHosts(host) {

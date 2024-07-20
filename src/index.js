@@ -7,7 +7,7 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "cloudflare-docker-proxy.way2049.workers.dev": dockerhub,
+  "cloudflare-docker-proxy.way2049.workers.dev": dockerHub,
   // staging
   "cloudflare-docker-proxy-staging.way2049.workers.dev": dockerHub,
 };
